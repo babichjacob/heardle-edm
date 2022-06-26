@@ -1,0 +1,22 @@
+/* Write your global styles here, in PostCSS syntax */
+@font-face {
+  font-family: "Lexend";
+  font-weight: 100 900;
+  font-display: fallback;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("./Lexend[wght].ttf") format("truetype");
+}
+
+@tailwind base;
+
+[list]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+button {
+  touch-action: manipulation;
+}
+
+@tailwind components;
+@tailwind utilities;

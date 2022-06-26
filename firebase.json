@@ -1,0 +1,6 @@
+{
+  "hosting": {
+    "trailingSlash": true,
+    "public": "build"
+  }
+}
